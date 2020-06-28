@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # flutterapp
 
 A new Flutter application.
@@ -14,3 +15,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# TossIT
+A simple app which generates heads or tails just like the toss of a coin
+>>>>>>> 7edf0fd10e17b19ab054f96bde0660c8c1aa5bea
+trying git
