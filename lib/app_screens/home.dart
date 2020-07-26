@@ -20,7 +20,7 @@ class home extends StatelessWidget{
         child: Center(
           child: Container(
             alignment: Alignment.center,
-            color: Colors.lightBlueAccent,
+            color: Color(0xff222831),
             child: Column(
           children: <Widget>[
            Container(
@@ -80,7 +80,7 @@ class home extends StatelessWidget{
                       ),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Colors.yellow
+                              color: Colors.yellow.shade400
                           ),
                           borderRadius: BorderRadius.circular(10.0)
                       ),
@@ -175,9 +175,9 @@ class home extends StatelessWidget{
               child: Text('Toss it!',
                 style: TextStyle(
                     fontSize: 25,
-                    color: Colors.white),
+                    color: Color(0xff00fff5)),
               ),
-              color: Colors.yellow,
+              color: Color(0xff00adb5),
               elevation: 10,
               highlightElevation: 20,
               padding: EdgeInsets.fromLTRB(20, 10,20,10),
