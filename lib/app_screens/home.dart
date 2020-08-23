@@ -65,6 +65,7 @@ class home extends StatelessWidget{
             Container(
               margin: EdgeInsets.fromLTRB(10.0,10.0,10.0,10.0),
               child:TextField(
+                style:  TextStyle(color: Colors.white),
                   decoration: InputDecoration(
                       enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -101,6 +102,9 @@ class home extends StatelessWidget{
             Container(
               margin: EdgeInsets.fromLTRB(10.0,10.0,10.0,10.0),
               child:TextField(
+                style: TextStyle(
+                  color: Colors.white
+                ),
                 controller: myController,
               decoration: InputDecoration(
                 enabledBorder: OutlineInputBorder(
@@ -136,6 +140,7 @@ class home extends StatelessWidget{
             Container(
               margin: EdgeInsets.all(10.0),
               child:TextField(
+                style: TextStyle(color: Colors.white),
                 decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
